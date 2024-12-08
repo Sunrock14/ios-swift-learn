@@ -5,6 +5,8 @@
 //  Created by İsmail Faruk Kocademir on 7.12.2024.
 //
 // Swift'te while döngüsünü ve özellikleri
+import math_h
+
 func demonstrateWhileLoop() {
     // 1. While Döngüsü Tanımı
     // While döngüsü, bir koşul doğru olduğu sürece kod bloğunu tekrar tekrar çalıştırır.

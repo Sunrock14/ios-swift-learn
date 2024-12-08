@@ -29,8 +29,8 @@ func demonstrateDictionaries() {
 
     // 4. Dictionary'den Eleman Silme
     // Belirli bir anahtar-değer çiftini silmek için `removeValue(forKey:)` metodu kullanılır.
-    let removedCity = cityPopulation.removeValue(forKey: "Ankara") // "Ankara" anahtarı silinir.
-    print("Silinen Şehir: \(removedCity ?? "Bulunamadı")") // 5500000
+    var removedCity = cityPopulation.removeValue(forKey: "Ankara") // "Ankara" anahtarı silinir.
+    print("Silinen Şehir: \(removedCity ?? 0)") // 5500000
     print("Güncel Şehir Nüfusları: \(cityPopulation)") // ["Istanbul": 15000000]
 
     // 5. Dictionary Elemanlarına Erişim
